@@ -1,0 +1,155 @@
+﻿<Window x:Name="Main" x:Class="Wordle_Clone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wordle_Clone"
+        mc:Ignorable="d"
+        Title="Wordle" Height="650" Width="500" Background="Black" ResizeMode="NoResize" Loaded="Main_Loaded" KeyDown="Main_KeyDown" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Border x:Name="BlblMsg" Margin="100, 25" CornerRadius="10" Background="Gray" Width="Auto" Height="42.3076923076" Visibility="Hidden">
+                <Label x:Name="lblMsg" Margin="10, 0, 10, 0" Width="Auto" Height="42.3076923076" Content="Phew!" Foreground="White" FontFamily="Bahnschrift" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </Border>
+            <Grid Margin="5" x:Name="Guesses" Height="360" Width="325">
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="R0" Height="60"/>
+                    <RowDefinition x:Name="R1" Height="60"/>
+                    <RowDefinition x:Name="R2" Height="60"/>
+                    <RowDefinition x:Name="R3" Height="60"/>
+                    <RowDefinition x:Name="R4" Height="60"/>
+                    <RowDefinition x:Name="R5" Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="C0" Width="65"/>
+                    <ColumnDefinition x:Name="C1" Width="65"/>
+                    <ColumnDefinition x:Name="C2" Width="65"/>
+                    <ColumnDefinition x:Name="C3" Width="65"/>
+                    <ColumnDefinition x:Name="C4" Width="65"/>
+                </Grid.ColumnDefinitions>
+                <Border x:Name="BR0C0" Grid.Row="0" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR0C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR1C0" Grid.Row="1" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR1C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR2C0" Grid.Row="2" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR2C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR3C0" Grid.Row="3" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR3C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR4C0" Grid.Row="4" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR4C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR5C0" Grid.Row="5" Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR5C0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR0C1" Grid.Row="0" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR0C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR1C1" Grid.Row="1" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR1C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR2C1" Grid.Row="2" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR2C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR3C1" Grid.Row="3" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR3C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR4C1" Grid.Row="4" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR4C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR5C1" Grid.Row="5" Grid.Column="1" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR5C1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR0C2" Grid.Row="0" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR0C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR1C2" Grid.Row="1" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR1C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR2C2" Grid.Row="2" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR2C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR3C2" Grid.Row="3" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR3C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR4C2" Grid.Row="4" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR4C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR5C2" Grid.Row="5" Grid.Column="2" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR5C2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR0C3" Grid.Row="0" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR0C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR1C3" Grid.Row="1" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR1C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR2C3" Grid.Row="2" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR2C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR3C3" Grid.Row="3" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR3C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR4C3" Grid.Row="4" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR4C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR5C3" Grid.Row="5" Grid.Column="3" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR5C3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR0C4" Grid.Row="0" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR0C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR1C4" Grid.Row="1" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR1C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR2C4" Grid.Row="2" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR2C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR3C4" Grid.Row="3" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR3C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR4C4" Grid.Row="4" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR4C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+
+                <Border x:Name="BR5C4" Grid.Row="5" Grid.Column="4" Background="Black" BorderBrush="White" BorderThickness="3" Margin="5">
+                    <TextBlock x:Name="TR5C4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="40" FontFamily="Ubuntu Mono" FontWeight="Bold"/>
+                </Border>
+            </Grid>
+        </StackPanel>
+        <Label x:Name="lblDebug" Margin="10, 5" Foreground="White" Width="Auto" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            1
+        </Label>
+    </Grid>
+</Window>

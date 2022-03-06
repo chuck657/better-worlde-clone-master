@@ -1,0 +1,63 @@
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.exe
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.deps.json
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.runtimeconfig.json
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.AssemblyReference.cache
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.cache
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.lref
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.g.resources
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfoInputs.cache
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfo.cs
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.CoreCompileInputs.cache
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\refint\Wordle_Clone.dll
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.genruntimeconfig.cache
+C:\Users\Uday\Desktop\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\ref\Wordle_Clone.dll
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.exe
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.deps.json
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.runtimeconfig.json
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.AssemblyReference.cache
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.cache
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.lref
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.g.resources
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfoInputs.cache
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfo.cs
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.CoreCompileInputs.cache
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\refint\Wordle_Clone.dll
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.genruntimeconfig.cache
+C:\Users\Uday Singh\Desktop\Uday Singh\Projects\Programming\C#\Wordle_Clone\Wordle_Clone\obj\Debug\net6.0-windows\ref\Wordle_Clone.dll
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.exe
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.deps.json
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.runtimeconfig.json
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\bin\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.AssemblyReference.cache
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.cache
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone_MarkupCompile.lref
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.g.resources
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfoInputs.cache
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.AssemblyInfo.cs
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.csproj.CoreCompileInputs.cache
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.dll
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\refint\Wordle_Clone.dll
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.pdb
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\Wordle_Clone.genruntimeconfig.cache
+C:\Users\bompy\Documents\better-worlde-clone-master\Wordle_Clone\obj\Debug\net6.0-windows\ref\Wordle_Clone.dll
